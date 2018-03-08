@@ -38,9 +38,8 @@
 clc
 clear
 close
-tic
 
-fprintf("ALGORITHM 5.4 (Orbit Determination from angle and range measurements)\n\n");
+fprintf("ALGORITHM 5.4 (Orbit Determination from Angle and Range Measurements)\n\n");
 
 Adeg = 90;
 Adotdeg = 0.1130;
@@ -52,15 +51,17 @@ thetaLSTdeg = 300;
 H = 0;
 phideg = 60;
 
-% Adeg = input('Azimuth (deg): ');                % Angle and Range values
-% Adotdeg = input('Azimuth Rate (deg): ');
+% Adeg = input('Azimuth (deg): ');                  % Angle and Range values
+% Adotdeg = input('Azimuth Rate (deg/s): ');
 % adeg = input('Elevation (deg): ');
-% adotdeg = input('Elevation Rate (deg): ');
-% rho = input('Range: ');
-% rhodot = input('Range Rate: ');
+% adotdeg = input('Elevation Rate (deg/s): ');
+% rho = input('Range (km): ');
+% rhodot = input('Range Rate (km/s): ');
 % thetaLSTdeg = input('Local Sidereal Time (deg): ');
-% H = input('Sea Level: ');
+% H = input('Sea Level (km): ');
 % phideg = input('Latitude (deg): ');
+
+tic
 
 A = Adeg*(pi/180);                                % Data Conversion to Radians
 Adot = Adotdeg*(pi/180);
