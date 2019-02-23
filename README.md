@@ -1,4 +1,4 @@
-# Kappa Algorithms for Chapter 5
+# Algorithms for Chapter 5
 
 ## :space_invader: ERAU AE313 :space_invader:
 
