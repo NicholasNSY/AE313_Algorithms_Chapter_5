@@ -10,6 +10,3 @@
 **1. ALGORITHM 5.2, Lamberts_Problem.m**
 - **__Status__**: :computer:
   - Solve Lambert's problem.
-
-
-
